@@ -9,10 +9,10 @@
 
 const OpcaoPagamento = (precoProduto) => {
 
-  let descontoProduto = 10;
+  const descontoProduto = 10;
   let descontoAVista = (descontoProduto / 100) * precoProduto;
-  let pagamentoAVista = precoProduto - descontoAVista;
-  let quantidadeParcelamento = 3;
+  const pagamentoAVista = precoProduto - descontoAVista;
+  const quantidadeParcelamento = 3;
   let pagamentoAPrazo = (precoProduto / quantidadeParcelamento);
 
   console.log(`Preço: R$${precoProduto.toFixed(2)}.`)
