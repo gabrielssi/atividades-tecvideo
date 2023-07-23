@@ -1,3 +1,11 @@
+// EXERCÍCIO 1
+// Faça as 4 operações básica com base nos números 2 e 4: 
+// Soma: 2 + 4 = x
+// Subtração : 2 - 4 = x
+// Divisão: 2 / 4 = x
+// Multiplicação: 2 * 4 = x
+// ---------------------------------------------------------------
+
 const Somar = (primeiroNumero, segundoNumero) => {
   let resultado = primeiroNumero + segundoNumero;
   console.log(`resultado da soma: ${resultado}`);
